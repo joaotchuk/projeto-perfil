@@ -1,0 +1,44 @@
+img#imagemperfil {
+margin: 0 auto;
+width: 115px;
+border-radius:50%;
+}
+
+
+div{
+  margin: 0 auto;
+  width: 100px;
+  
+}
+
+/*button{
+  color:black;
+  background-color: #BB99DD;
+  margin: 0 auto;
+  width: 113px;
+  font-family: poppins;
+  font-weight: 300px, 600px;
+} */
+
+img{
+  margin: 0 auto;
+  width: 19px;
+}
+
+body{
+  background-color:#E5E5E5;
+}
+p{
+  border: 2px solid gray;
+  color:black;
+  margin: 0 auto;
+  width: 100px;
+  font-family: poppins;
+  font-weight: 300px, 600px;
+  text-align: center;
+}
+
+a{
+  text-decoration:none
+}
+
