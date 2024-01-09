@@ -157,11 +157,12 @@ margin: 4px auto;
   top: 50%;
   left: 0;
 
+  animation: slide-volta 0.4s;
+
 }
 
 .light #switch button{
-  right: 0;
-  left: initial;
+ animation: slide 0.4s forwards;
 
 
 }
@@ -176,4 +177,26 @@ margin: 4px auto;
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 
+}
+
+@keyframes slide{
+  from{
+    left: 0;
+  }
+
+  
+  to{
+    left: 50%
+  }
+}
+
+@keyframes slide-volta{
+
+  from{
+    left: 50%;
+  }
+
+  to{
+    left: 0;
+  }
 }
