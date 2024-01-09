@@ -10,7 +10,7 @@ function toggleMode() {
     }
  
      else {
-      img.setAttribute('src', "./dall-e-2.webp")
+      img.setAttribute('src', "./monalisa.avif")
  
     }
 
